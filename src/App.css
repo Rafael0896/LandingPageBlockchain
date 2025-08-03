@@ -1,42 +1,50 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Estilos para la sección Hero */
+.hero-section {
+  /* Usamos Flexbox para centrar el contenido fácilmente */
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;     /* Centra horizontalmente */
   text-align: center;
+
+  min-height: 80vh; /* Ocupa al menos el 80% de la altura de la pantalla */
+  padding: 2rem;    /* Espacio interior para que no se pegue a los bordes */
+  color: white;     /* Color del texto */
+
+  /* Un gradiente de fondo con temática tecnológica/azul */
+  background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hero-section h1 {
+  font-size: 3.5rem; /* Tamaño de fuente grande y llamativo */
+  margin-bottom: 1rem;
+  /* Una pequeña sombra para que el texto resalte sobre el fondo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-section p {
+  font-size: 1.25rem;
+  max-width: 600px; /* Evita que el párrafo sea demasiado ancho */
+  margin-bottom: 2rem;
+  line-height: 1.6; /* Mejora la legibilidad */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Estilos para el botón "Call to Action" (Llamada a la acción) */
+.cta-button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #302b63; /* Color del texto del botón (oscuro) */
+  background-color: white; /* Fondo del botón (claro) */
+  border: none;
+  border-radius: 50px; /* Bordes completamente redondeados para un look moderno */
+  cursor: pointer;
+  /* Una transición suave para los efectos */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Efecto al pasar el mouse por encima del botón */
+.cta-button:hover {
+  transform: translateY(-3px); /* Se eleva un poco */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Una sombra sutil */
 }
