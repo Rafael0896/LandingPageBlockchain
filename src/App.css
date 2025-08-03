@@ -48,3 +48,44 @@
   transform: translateY(-3px); /* Se eleva un poco */
   box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Una sombra sutil */
 }
+
+/* Estilos para la Barra de Navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Empuja el logo a la izq. y los links a la der. */
+  align-items: center;
+  padding: 1rem 2rem; /* Espaciado vertical y horizontal */
+  background-color: #1a1a2e; /* Un color oscuro que complementa el hero */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: sticky; /* Fija la barra en la parte superior al hacer scroll */
+  top: 0;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.nav-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none; /* Quita los puntos de la lista */
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  color: #e0e0e0; /* Un blanco un poco más suave */
+  text-decoration: none;
+  padding: 0 1rem; /* Espacio entre los items */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #64ffda; /* Un color de acento "tech" al pasar el mouse */
+}
