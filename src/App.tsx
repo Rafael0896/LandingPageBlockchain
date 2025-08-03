@@ -1,18 +1,22 @@
-import { useEffect, useState } from 'react';
+// src/App.tsx
+
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
+import './assets/App.css'; // Asegúrate que la ruta a tu CSS principal sea correcta
 
 function App() {
-    const [mensaje, setMensaje] = useState('');
-
-    useEffect(() => {
-        fetch('http://localhost:4000/api/hello')
-            .then(res => res.json())
-            .then(data => setMensaje(data.message));
-    }, []);
-
     return (
-        <div>
-            <h1>{mensaje}</h1>
-        </div>
+        // Usamos un "Fragment" (<>) para agrupar los componentes
+        <>
+            <Navbar />
+            <main>
+                <Hero />
+                <ContactForm />
+            </main>
+            <Footer />
+        </>
     );
 }
 
