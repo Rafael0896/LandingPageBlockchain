@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import './assets/App.css'; // Asegúrate que la ruta a tu CSS principal sea correcta
+import './App.css'; // Asegúrate que la ruta a tu CSS principal sea correcta
 
 function App() {
     return (
