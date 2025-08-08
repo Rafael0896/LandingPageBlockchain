@@ -12,7 +12,7 @@
   color: white;     /* Color del texto */
 
   /* Un gradiente de fondo con temática tecnológica/azul */
-  background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(45deg, #414143, #302b63, #05052b);
 }
 
 .hero-section h1 {
@@ -195,4 +195,38 @@
 
 .social-link:hover {
   color: #46fbe8; /* Mismo color de hover que la navbar */
+}
+
+
+/* Estilos para el contenido de Blockchain que aparece */
+.blockchain-content {
+  max-width: 800px;
+  margin: 2rem auto; /* Centra el contenido y le da espacio */
+  padding: 2rem;
+  background-color: #3e3ebc; /* Un fondo ligeramente diferente */
+  border-left: 4px solid #2b6363; /* Un acento de color */
+  text-align: left;
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.blockchain-content h2 {
+  color: #1a1a2e;
+}
+
+.blockchain-content h3 {
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+/* Animación para que aparezca suavemente */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
