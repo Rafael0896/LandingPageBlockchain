@@ -12,7 +12,7 @@
   color: white;     /* Color del texto */
 
   /* Un gradiente de fondo con temática tecnológica/azul */
-  background: linear-gradient(45deg, #414143, #302b63, #05052b);
+  background: linear-gradient(45deg, #04bc60, #302b63, #8d1fef);
 }
 
 .hero-section h1 {
@@ -39,7 +39,6 @@
   border: none;
   border-radius: 50px; /* Bordes completamente redondeados para un look moderno */
   cursor: pointer;
-  /* Una transición suave para los efectos */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -203,8 +202,8 @@
   max-width: 800px;
   margin: 2rem auto; /* Centra el contenido y le da espacio */
   padding: 2rem;
-  background-color: #3e3ebc; /* Un fondo ligeramente diferente */
-  border-left: 4px solid #2b6363; /* Un acento de color */
+  background-color: #5a5aca; /* Un fondo ligeramente diferente */
+  border-left: 4px solid #e82fef; /* Un acento de color */
   text-align: left;
   border-radius: 8px;
   animation: fadeIn 0.5s ease-in-out;
