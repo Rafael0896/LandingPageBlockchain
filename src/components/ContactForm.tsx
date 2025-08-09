@@ -12,7 +12,7 @@ const ContactForm = () => {
         comment: '',
     });
 
-    // Estado para mostrar mensajes al usuario (éxito, error, etc.)
+    // Estado para mostrar mensajes al usuario (éxito, error.)
     const [statusMessage, setStatusMessage] = useState('');
 
     // 3. Función que se ejecuta cada vez que el usuario escribe algo
