@@ -5,136 +5,130 @@ const BlockchainContent = () => {
         <div className="blockchain-content">
             <h2>¿Qué es Blockchain?</h2>
             <section id="introduccion">
-                <h2>Introducción</h2>
+                <h2>Blockchain: La Tecnología que Está Cambiando las Reglas del Juego</h2>
                 <p>
-                    En un mundo donde la información constituye el activo más valioso y donde la confianza en las
-                    instituciones centralizadas se encuentra constantemente cuestionada, surge una tecnología que
-                    promete transformar fundamentalmente la manera en que concebimos, almacenamos y transferimos valor.
+                    Imagina mover dinero, información o cualquier activo digital a cualquier parte del mundo,
+                    en segundos y sin intermediarios. Esa es la promesa de <strong>Blockchain</strong>.
                 </p>
                 <p>
-                    La tecnología Blockchain no representa simplemente una innovación más en el panorama tecnológico
-                    contemporáneo; constituye una revolución paradigmática que está redefiniendo los cimientos mismos de
-                    nuestros sistemas de intercambio, verificación y almacenamiento de información.
-                </p>
-            </section>
-
-            <section id="premisa">
-                <h2>Premisa</h2>
-                <p>
-                    La tecnología Blockchain constituye una revolución tecnológica que transformará fundamentalmente la
-                    forma en que almacenamos, verificamos y transferimos información y valor, estableciéndose como la
-                    innovación disruptiva más significativa del siglo XXI.
+                    No se trata solo de una innovación tecnológica. Es una nueva forma de confiar, almacenar y
+                    transferir valor,
+                    con un nivel de seguridad y transparencia que antes parecía imposible.
                 </p>
             </section>
 
-            <section id="justificacion">
-                <h2>Justificación de la Premisa</h2>
-                <p>
-                    Esta afirmación se fundamenta en la capacidad demostrada de Blockchain para solucionar problemas
-                    críticos de confianza, transparencia y centralización que han limitado el desarrollo de sistemas
-                    verdaderamente democráticos y eficientes, transformando múltiples sectores económicos y sociales
-                    hacia un futuro más descentralizado, seguro y equitativo.
-                </p>
-            </section>
-
-            <section id="blockchain">
+            <section id="que-es">
                 <h2>¿Qué es Blockchain?</h2>
                 <p>
-                    La tecnología Blockchain no es una simple innovación, sino una revolución paradigmática que redefine
-                    la manera en que concebimos, almacenamos y transferimos valor e información. Se establece como la
-                    innovación disruptiva más significativa del siglo XXI.
-                </p>
-                <p>
-                    Fundamentalmente, es un sistema de registro distribuido que permite a una red de participantes
-                    mantener un consenso sobre el estado de un libro mayor digital sin necesidad de una autoridad
+                    Es un sistema de <strong>registro digital descentralizado</strong> que conecta a miles de
+                    participantes en una red
+                    para almacenar información de forma segura, transparente e inmutable, sin depender de una autoridad
                     central.
                 </p>
                 <p>
-                    Blockchain busca solucionar problemas críticos de confianza, transparencia y centralización,
-                    promoviendo un futuro más seguro, descentralizado y equitativo. Sustituye intermediarios costosos,
-                    proporciona verificación independiente y devuelve el control de la información a los usuarios.
-                </p>
-                <p>
-                    Su origen se remonta al 2008 con el whitepaper "Bitcoin: A Peer-to-Peer Electronic Cash System" de
-                    Satoshi Nakamoto, que resolvió el problema del doble gasto sin necesidad de intermediarios, abriendo
-                    la puerta a las criptomonedas y sistemas descentralizados.
-                </p>
-
-                <h3>Estructura Técnica</h3>
-                <p>
-                    Blockchain es una estructura de datos distribuida que contiene bloques enlazados criptográficamente.
-                    Cada bloque incluye un <strong>hash</strong> del bloque anterior, marca temporal y datos de
-                    transacción, creando un registro inmutable y transparente.
-                </p>
-                <p>
-                    La <strong>criptografía</strong> es esencial. A través de criptografía de clave pública, los
-                    usuarios pueden autorizar transacciones sin revelar información sensible. Algoritmos
-                    como <code>SHA-256</code> y curvas elípticas garantizan seguridad y anonimato.
-                </p>
-                <p>
-                    Las funciones <strong>hash</strong> actúan como huellas digitales. Una pequeña modificación genera
-                    un hash completamente diferente, asegurando la inmutabilidad de la cadena.
-                </p>
-                <p>
-                    Cada <strong>bloque</strong> contiene transacciones, metadatos y el hash del bloque anterior. Esta
-                    conexión crea una dependencia criptográfica que impide alterar datos históricos sin rehacer toda la
-                    cadena.
-                </p>
-                <p>
-                    Los bloques enlazados forman una <strong>cadena cronológica</strong> que puede ser verificada por
-                    cualquier nodo de la red, eliminando la necesidad de intermediarios.
-                </p>
-
-                <h3>Representación de una Red Blockchain</h3>
-                <p>
-                    En una red distribuida, cada nodo almacena una copia sincronizada del libro mayor. Esta arquitectura
-                    descentralizada elimina puntos únicos de falla y garantiza la integridad del sistema.
+                    En lugar de que un banco, una empresa o una institución controlen los datos,
+                    <strong>todos los usuarios validan y verifican la información</strong>, garantizando que sea
+                    legítima.
                 </p>
             </section>
 
-            <section id="criptomonedas">
-                <h2>Criptomonedas</h2>
+            <section id="como-funciona">
+                <h2>¿Cómo Funciona?</h2>
+                <ul>
+                    <li><strong>Bloques:</strong> Contienen transacciones e información.</li>
+                    <li><strong>Hash criptográfico:</strong> Un código único que protege cada bloque.</li>
+                    <li><strong>Cadena:</strong> Cada bloque está conectado al anterior, formando un historial imposible
+                        de alterar.
+                    </li>
+                    <li><strong>Red distribuida:</strong> Todos los nodos tienen una copia sincronizada del registro.
+                    </li>
+                </ul>
                 <p>
-                    Las criptomonedas son la aplicación más visible de Blockchain. Funcionan como sistemas de
-                    intercambio descentralizados, sin necesidad de bancos centrales. Bitcoin ha sido la pionera,
-                    operando de forma continua desde 2009.
+                    Esta arquitectura hace que modificar un dato sea prácticamente imposible,
+                    ya que requeriría cambiar toda la cadena y convencer a la mayoría de la red.
                 </p>
+            </section>
+
+            <section id="por-que-importa">
+                <h2>¿Por Qué Importa Blockchain?</h2>
                 <p>
-                    Ventajas de las criptomonedas:
+                    Blockchain resuelve problemas que han existido por décadas:
                 </p>
                 <ul>
-                    <li>Eliminan intermediarios.</li>
-                    <li>Permiten transacciones globales 24/7.</li>
-                    <li>Garantizan transparencia total.</li>
-                    <li>Ofrecen protección ante la inflación con emisión controlada por algoritmos.</li>
+                    <li>Falta de transparencia en transacciones.</li>
+                    <li>Dependencia de intermediarios costosos e ineficientes.</li>
+                    <li>Vulnerabilidad de datos frente a ataques o fraudes.</li>
                 </ul>
-
-                <h3>Minería de Criptomonedas</h3>
                 <p>
-                    La minería es el proceso mediante el cual se validan transacciones y se aseguran las redes
-                    Blockchain. Los mineros compiten resolviendo problemas criptográficos, lo que mantiene la red segura
-                    y descentralizada, y les permite recibir nuevas monedas como recompensa.
+                    Con Blockchain, la información es pública, verificable y segura,
+                    pero la identidad de los usuarios permanece protegida.
+                </p>
+            </section>
+
+            <section id="aplicaciones">
+                <h2>Aplicaciones Reales</h2>
+                <ul>
+                    <li><strong>Finanzas descentralizadas (DeFi):</strong> Préstamos, pagos e inversiones sin bancos.
+                    </li>
+                    <li><strong>Cadena de suministro:</strong> Rastrear productos desde el origen hasta el cliente
+                        final.
+                    </li>
+                    <li><strong>Identidad digital:</strong> Documentos y credenciales seguras que funcionan en cualquier
+                        parte del mundo.
+                    </li>
+                    <li><strong>Contratos inteligentes:</strong> Acuerdos que se ejecutan automáticamente al cumplirse
+                        las condiciones.
+                    </li>
+                    <li><strong>Propiedad intelectual y NFTs:</strong> Certificación y venta de activos digitales
+                        únicos.
+                    </li>
+                    <li><strong>Votaciones seguras:</strong> Elecciones transparentes y verificables.</li>
+                </ul>
+            </section>
+
+            <section id="criptomonedas">
+                <h2>Criptomonedas: El Caso Más Conocido</h2>
+                <p>
+                    Las criptomonedas, como <strong>Bitcoin</strong> o <strong>Ethereum</strong>, son la aplicación más
+                    visible de Blockchain.
+                    Funcionan como dinero digital que puede enviarse a cualquier parte del mundo sin bancos.
+                </p>
+                <p>
+                    Sus ventajas:
+                </p>
+                <ul>
+                    <li>Operan 24/7 en todo el mundo.</li>
+                    <li>No requieren intermediarios.</li>
+                    <li>Transparencia total en transacciones.</li>
+                    <li>Protección contra la inflación mediante emisión controlada.</li>
+                </ul>
+            </section>
+
+            <section id="mineria">
+                <h2>Minería: Cómo se Mantiene Segura la Red</h2>
+                <p>
+                    La minería es el proceso mediante el cual miles de computadoras compiten para validar transacciones
+                    y agregar nuevos bloques a la cadena.
+                    Los mineros reciben criptomonedas como recompensa por mantener la red segura y operativa.
                 </p>
             </section>
 
             <section id="conclusion">
                 <h2>Conclusión</h2>
                 <p>
-                    Blockchain no es solo una innovación tecnológica; es una nueva forma de concebir la confianza, la
-                    propiedad y la transferencia de valor. Sus bases técnicas—criptografía, funciones hash, bloques
-                    enlazados y redes distribuidas—representan una transformación profunda en la forma en que operan
-                    nuestros sistemas económicos y sociales.
+                    Blockchain no es una moda pasajera. Es una <strong>revolución tecnológica</strong> que
+                    está cambiando cómo confiamos, cómo nos conectamos y cómo intercambiamos valor.
                 </p>
                 <p>
-                    Desde criptomonedas hasta contratos inteligentes, sus aplicaciones ya están revolucionando
-                    industrias, democratizando el acceso a servicios y eliminando barreras tradicionales.
+                    Desde criptomonedas hasta sistemas de votación, sus aplicaciones ya están transformando industrias
+                    y dando más poder a las personas.
                 </p>
                 <p>
-                    El futuro apunta a una sociedad más justa, transparente y descentralizada. Blockchain no solo cambia
-                    la tecnología; está cambiando las reglas del juego en la organización social y económica del siglo
-                    XXI.
+                    El futuro será más descentralizado, transparente y seguro… y Blockchain está en el centro de ese
+                    cambio.
                 </p>
             </section>
+
 
         </div>
     );
