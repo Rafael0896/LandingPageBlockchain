@@ -209,8 +209,8 @@
   max-width: 800px;
   margin: 2rem auto; /* Centra el contenido y le da espacio */
   padding: 8rem;
-  background-color: #5a5aca; /* Un fondo ligeramente diferente */
-  border-left: 4px solid #e82fef; /* Un acento de color */
+  background-color: rgba(90, 90, 202, 0.61); /* Un fondo ligeramente diferente */
+  border-left: 4px solid rgba(222, 4, 230, 0.62); /* Un acento de color */
   text-align: left;
   border-radius: 8px;
   animation: fadeIn 0.5s ease-in-out;
