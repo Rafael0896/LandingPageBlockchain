@@ -27,5 +27,7 @@ const Hero = () => {
         </section>
     );
 };
+// quiero poner una imagen de fondo en el hero, que ocupe toda la pantalla y que el texto se vea bien encima de la imagen.
+
 
 export default Hero;
